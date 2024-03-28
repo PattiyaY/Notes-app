@@ -82,13 +82,29 @@ input {
 }
 
 .notes-grid button:hover {
-  background-color: red;
+  background-color: rgb(178, 48, 48);
   cursor: pointer;
 }
 
 h2 {
   margin: 10px;
 }
+
 p {
   margin: 10px;
+}
+
+.edit-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.edit-buttons button {
+  flex: 1;
+}
+
+/* select the last button */
+.edit-buttons button:last-of-type {
+  background-color: rgb(178, 48, 48);
 }

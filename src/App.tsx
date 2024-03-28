@@ -129,7 +129,7 @@ const App = () => {
         />
 
         {selectedNote ? (
-          <div className="edit-button">
+          <div className="edit-buttons">
             <button type="submit">Save</button>
             <button type="submit" onClick={handleCancel}>
               Cancel
