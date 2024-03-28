@@ -24,14 +24,17 @@ input {
   font-size: 14px;
 }
 
-.add-note {
-  background-color: cadetblue;
-  border-radius: 10px;
-  border: solid 2px white;
+.note-form button {
   font-size: 12px;
+  color: aliceblue;
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 10px;
+  border: 0;
+  background-color: cadetblue;
 }
 
-.add-note:hover {
+.note-form button:hover {
   background-color: teal;
   cursor: pointer;
 }
@@ -56,6 +59,7 @@ input {
 }
 
 .note-item {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -69,20 +73,22 @@ input {
   justify-content: flex-end;
 }
 
-.del-note {
-  background-color: rgb(190, 71, 71);
-  border: solid 1px white;
+.notes-grid button {
   font-size: 16px;
+  border: solid 1px white;
+  border-radius: 10px;
   background: transparent;
   max-width: fit-content;
-  border-radius: 5px;
 }
 
-.del-note:hover {
+.notes-grid button:hover {
   background-color: red;
   cursor: pointer;
 }
 
 h2 {
-  margin: 0;
+  margin: 10px;
+}
+p {
+  margin: 10px;
 }
